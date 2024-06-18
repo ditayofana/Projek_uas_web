@@ -16,9 +16,9 @@
 
 <body>
     <!-- Responsive navbar-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
         <div class="container">
-            <a class="navbar-brand" href="../UserController/bloghome.php">uinfo</a>
+            <a class="navbar-brand" href="../UserController/bloghome.php"  style= "color: White">ArtikelNews</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
@@ -74,7 +74,7 @@
                             </div>
                             <div class="mt-4 mb-0">
                                 <div class="d-grid">
-                                    <button class="btn btn-primary btn-block" type="submit">Register</button>
+                                    <button class="btn btn-secondary btn-block" type="submit">Register</button>
                                 </div>
                             </div>
                         </form>
@@ -90,6 +90,16 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
+     <br>
+    <br>
+    <br>
+    </div>
+    <!-- Footer-->
+    <footer class="py-5 bg-secondary mt-auto">
+        <div class="container">
+            <p class="m-0 text-center text-white">Copyright &copy; ArtikelNews 2024</p>
+        </div>
+    </footer>
 </body>
 
 </html>
